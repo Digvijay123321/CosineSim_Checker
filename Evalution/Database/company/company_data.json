@@ -1,0 +1,87 @@
+[
+    {
+        "id": 1,
+        "company_name": "Amazon",
+        "timestamp": "2025-03-06 20:36:44"
+    },
+    {
+        "id": 2,
+        "company_name": "Meta",
+        "timestamp": "2025-03-06 20:38:08"
+    },
+    {
+        "id": 3,
+        "company_name": "Meta",
+        "timestamp": "2025-03-08 14:37:38"
+    },
+    {
+        "id": 4,
+        "company_name": "amazon",
+        "timestamp": "2025-03-08 14:42:41"
+    },
+    {
+        "id": 5,
+        "company_name": "Amazon",
+        "timestamp": "2025-03-08 14:44:11"
+    },
+    {
+        "id": 6,
+        "company_name": "Amazon",
+        "timestamp": "2025-03-08 15:48:29"
+    },
+    {
+        "id": 7,
+        "company_name": "Amazon",
+        "timestamp": "2025-03-08 16:58:06"
+    },
+    {
+        "id": 8,
+        "company_name": "Amazon",
+        "timestamp": "2025-03-08 17:08:38"
+    },
+    {
+        "id": 9,
+        "company_name": "Amazon",
+        "timestamp": "2025-03-08 17:13:07"
+    },
+    {
+        "id": 10,
+        "company_name": "Amazon",
+        "timestamp": "2025-03-08 17:14:50"
+    },
+    {
+        "id": 11,
+        "company_name": "as",
+        "timestamp": "2025-03-08 22:26:21"
+    },
+    {
+        "id": 12,
+        "company_name": "Amazon",
+        "timestamp": "2025-03-09 00:46:41"
+    },
+    {
+        "id": 13,
+        "company_name": "Amazon",
+        "timestamp": "2025-03-09 00:49:25"
+    },
+    {
+        "id": 14,
+        "company_name": "Amazon",
+        "timestamp": "2025-03-09 00:51:53"
+    },
+    {
+        "id": 15,
+        "company_name": "Meta",
+        "timestamp": "2025-03-09 00:53:52"
+    },
+    {
+        "id": 16,
+        "company_name": "Hi",
+        "timestamp": "2025-03-09 00:56:27"
+    },
+    {
+        "id": 17,
+        "company_name": "Amazon",
+        "timestamp": "2025-03-10 18:00:41"
+    }
+]
