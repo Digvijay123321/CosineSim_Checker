@@ -185,26 +185,25 @@ def evaluate_similarity(company_name):
     
     # Using T5 model
     print("t5_sim")
-    # t5_similarity_score = t5_similarity(doc1_text, doc2_text)
-    t5_similarity_score = 99999.99999
+    t5_similarity_score = t5_similarity(doc1_text, doc2_text)
     
     
     # Using SBERT model --> 1st best
     sbert_similarity_score = sbert_similarity(doc1_text, doc2_text)
-    # sbert_similarity_score = 99999.99999
+    
     
     
     # Using RoBERTa model
-    # roberta_similarity_score = roberta_similarity(doc1_text, doc2_text)
-    roberta_similarity_score = 99999.99999
+    roberta_similarity_score = roberta_similarity(doc1_text, doc2_text)
+    
 
     # Using BERT model
-    # bert_similarity_score = bert_similarity(doc1_text, doc2_text)
-    bert_similarity_score = 99999.99999
+    bert_similarity_score = bert_similarity(doc1_text, doc2_text)
+    
     
     # Using Modern BERT model
-    # m_bert_similarity_score = m_bert_similarity(doc1_text, doc2_text)
-    m_bert_similarity_score = 99999.99999
+    m_bert_similarity_score = m_bert_similarity(doc1_text, doc2_text)
+    
 
 
     print(f"OpenAI Similarity Score: {openai_similarity:.4f}")
