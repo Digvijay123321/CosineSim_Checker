@@ -19,27 +19,18 @@ def documents_download():
     gcp_bucket_name = "auditpulse-data"
 
     # Define the two main folders
-    doc1_folder = "Evaluation/Doc4/"
-    doc2_folder = "Evaluation/Doc5/"
+    doc1_folder = "Evaluation/Doc5/"
 
     # Download files
     doc1_files = download_all_files_from_gcp(gcp_bucket_name, doc1_folder, temp_dir)
-    doc2_files = download_all_files_from_gcp(gcp_bucket_name, doc2_folder, temp_dir)
     print("Files downloaded:\nDoc1: ", doc1_files)
-    print("Files downloaded:\nDoc2: ", doc2_files)
 
     # Process Doc1 files into input.txt
-    input_text_path = os.path.join(temp_dir, "input.txt")
+    input_text_path = os.path.join(temp_dir, "generated.txt")
     with open(input_text_path, 'w', encoding='utf-8') as f:
         f.write(extract_text_from_files(doc1_files))
     print(f"Saved extracted text from Doc1 to {input_text_path}")
 
-
-    # Process Doc2 files into generated.txt
-    gen_text_path = os.path.join(temp_dir, "generated.txt")
-    with open(gen_text_path, 'w', encoding='utf-8') as f:
-        f.write(extract_text_from_files(doc2_files))
-    print(f"Saved extracted text from Doc1 to {gen_text_path}")
 
     print("Document collection process completed.")
 
